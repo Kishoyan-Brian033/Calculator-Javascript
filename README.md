@@ -6,7 +6,7 @@ A sleek, responsive calculator built with HTML, CSS, and JavaScript that perform
 
 
 ## Live Demo
-[View on Vercel]()  
+[Calculator](https://calculator-javascript-eight.vercel.app/)  
 
 
 ## Features

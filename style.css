@@ -15,21 +15,23 @@ body {
 .calculator-grid {
   display: grid;
   justify-content: center;
+  margin-top: 50px;
   align-content: center;
   min-height: 100vh;
-  grid-template-columns: repeat(4, 100px);
-  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 70px);
   
   
 }
 
 .calculator-grid > button {
   cursor: pointer;
-  font-size: 2rem;
-  
+  font-size: 1.5rem;
+  border: 1px solid white;
   outline: none;
   background-color: rgba(255, 255, 255, .75);
-  border-radius: 30px;
+  border-radius: 5px;
+  gap: 1px;
 }
 
 .calculator-grid > button:hover {
@@ -39,12 +41,14 @@ body {
 
 .span-two {
   grid-column: span 2;
+  
 }
 
 .output-grid{
   grid-column: 1 / -1;
   background-color: rgba(0, 0, 0, 0.75);
- border-end-end-radius: 10px;
+ border-start-start-radius: 5px;
+ border-start-end-radius: 5px;
 }
 
 
@@ -71,10 +75,4 @@ padding: 30px;
 .output .current-operand {
   color: white;
   font-size: 2rem;
-}
-.content{
-  padding: 20px;
-  display: flex;
-  justify-content: space-around;
-  
 }
