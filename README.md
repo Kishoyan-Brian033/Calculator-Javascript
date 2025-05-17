@@ -27,4 +27,4 @@ A sleek, responsive calculator built with HTML, CSS, and JavaScript that perform
 To run locally:
 1. Clone this repository
 ```bash
-git clone https://github.com/your-username/calculator.git
+git clone [https://github.com/Kishoyan-Brian033/Calculator-Javascript]
